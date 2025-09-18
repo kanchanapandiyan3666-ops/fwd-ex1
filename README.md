@@ -36,6 +36,7 @@ Start the server script and check for errors.
 Open a browser and navigate to http://127.0.0.1:8000 (or the assigned port).
 
 ## PROGRAM:
+~~~
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <!DOCTYPE html>
@@ -103,8 +104,11 @@ content = """
 </body>
 </html>
 """
+~~~
 
 ## OUTPUT:
+![alt text](<Screenshot 2025-09-18 145512.png>)
+![alt text](<Screenshot 2025-09-18 145611.png>)
 
 
 ## RESULT:
